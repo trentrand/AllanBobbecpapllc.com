@@ -288,8 +288,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #1B242F;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover,
 a:focus {
@@ -492,7 +491,7 @@ cite {
   text-align: right;
 }
 .text-center {
-  text-align: center;
+  text-align: left;
 }
 .text-justify {
   text-align: justify;
