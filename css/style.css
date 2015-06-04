@@ -4,6 +4,42 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+div#headerwrap {
+
+}
+div#footerwrap {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+div#headerwrap {
+    top: 0;
+    height: 64px;
+}
+
+div#middlewrap {
+    height: 100%;
+    overflow-y: auto;
+}
+
+div#middle {
+    padding-top: 0px;
+    padding-bottom: 35px;
+}
+
+div#footerwrap {
+    bottom: 0;
+    height: 52px;
+    background-color: green;
+}
+
 h4,
 h5,
 h6,
@@ -73,7 +109,7 @@ body a {
 
 .logo {
     float: left;
-    width: 25%;
+    width: 20%;
 }
 
 .logo a {
@@ -94,7 +130,8 @@ body a {
 
 .head-nav {
     padding: 35px 0;
-    float: right;
+        float: right;
+
 }
 
 .search2 {
@@ -715,10 +752,6 @@ i.comt {
     padding: 1em 0;
     bottom: 0;
     clear: both;
- position: relative;
- z-index: 10;
- height: 3em;
- margin-top: -3em;
 }
 
 .foot-right ul {
@@ -869,7 +902,7 @@ i.line {
 
 .who_we_are,
 .latest-news {
-    padding: 3em 0;
+    padding: 1em 0;
 }
 
 .grid_12 h3 {
@@ -1080,7 +1113,7 @@ i.line {
 }
 
 .contact.about-desc {
-    padding: 4em 0;
+    padding: 1em 0;
 }
 
 .contact.about-desc h3 {
@@ -1790,7 +1823,8 @@ ul.social-ic li.in-search span {
         background: none;
         position: absolute;
         top: 33px;
-        right: 20px;
+                right: 20px;
+
     }
     .head-nav span.menu:before {
         content: url(../images/menu.png);
