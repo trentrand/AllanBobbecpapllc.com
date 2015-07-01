@@ -10,9 +10,8 @@ html {
     height: 100%;
 }
 
-div#headerwrap {
+div#headerwrap {}
 
-}
 div#footerwrap {
     position: fixed;
     left: 0;
@@ -130,8 +129,7 @@ body a {
 
 .head-nav {
     padding: 35px 0;
-        float: right;
-
+    float: right;
 }
 
 .search2 {
@@ -1823,8 +1821,7 @@ ul.social-ic li.in-search span {
         background: none;
         position: absolute;
         top: 33px;
-                right: 20px;
-
+        right: 20px;
     }
     .head-nav span.menu:before {
         content: url(../images/menu.png);
@@ -2553,4 +2550,12 @@ body,
 body > #container {
     height: auto;
     min-height: 100%;
+}
+
+iframe {
+    padding-bottom: 30px;
+}
+
+h5 {
+    font-size: 14px;
 }
